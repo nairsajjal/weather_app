@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.icon{
+    
+    position: absolute;
+    right: 485px;
+    
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content: centre;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(249, 219, 213 ),rgb(250, 130, 104  ));
+
+    font-family: Helvetica, sans-serif;
+    color:white;
+
+}
+
+.location-timezone{
+    position: absolute;
+    right: 650px;
+}
+.location,.temperature{
+    height: 30vh;
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.temperature{
+        flex-direction: column;
+        
+
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 5px;
+    font-size: 30px;
+}
+.degree-section h2{
+   
+    font-size: 40px;
+}
+.column{
+    width: 50%;
+    padding: 0px 10px;
+}
+.row::after{
+    content:"";
+    display:table;
+    clear:both;
+
+}
+@media screen and(max-width:600px)
+{
+    .column{
+        width:100%;
+        display:block;
+        margin-bottom:20px;
+    }
+}
+.card{
+    box-shadow :0 4px 8px 0 rgba(0,0,0,0.2);
+    width:400px;
+    margin:auto;
+    background-color:  #C70039 ;
+    align-content: center;
+    text-align: center;
+    border-radius:40px;
+    padding-bottom: 15px;
+}
