@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import './Commonstyle.css';
 function App() {
@@ -25,7 +25,7 @@ function App() {
         </div>
       </div>
 
-      
+
     </div>
   );
 }
